@@ -22,20 +22,20 @@ public class FizzBuzzConverterTest {
     }
 
     @Test
-    public void itShouldReturnFizzWhen5isGiven() {
+    public void itShouldReturnBuzzWhen5isGiven() {
         String result = FizzBuzzConverter.convert(5);
         assertEquals(String.valueOf("Buzz"), result);
     }
 
 
     @Test
-    public void itShouldReturnFizzWhen15isGiven() {
+    public void itShouldReturnFizzBuzzWhen15isGiven() {
         String result = FizzBuzzConverter.convert(15);
         assertEquals(String.valueOf("FizzBuzz"), result);
     }
 
     @Test
-    public void itShouldReturnFizzWhenMultipleOf15isGiven() {
+    public void itShouldReturnFizzBuzzWhenMultipleOf15isGiven() {
         String result = FizzBuzzConverter.convert(15 * random.nextInt(20));
         assertEquals(String.valueOf("FizzBuzz"), result);
     }
