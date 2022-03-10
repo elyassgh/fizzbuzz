@@ -1,4 +1,4 @@
-public class MockData {
+public class ExpectedData {
 
     static String fbFor1 = "1 ";
     static String fbFor2 = "1 2 ";
