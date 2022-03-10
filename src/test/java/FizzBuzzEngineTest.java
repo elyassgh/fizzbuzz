@@ -22,7 +22,7 @@ public class FizzBuzzEngineTest {
     }
 
     @Test
-    public void itShouldReturn12FizzWhen1IsGiven() throws Exception {
+    public void itShouldReturn12FizzWhen3IsGiven() throws Exception {
         String result = FizzBuzzEngine.fizzbuzz(3);
         assertEquals(ExpectedData.fbFor3, result);
     }
